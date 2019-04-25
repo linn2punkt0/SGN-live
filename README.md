@@ -1,5 +1,5 @@
 # This is the live-demo-version
-To see the original repositories where i have collaborated with my teammates Charmaine Wang and Laureta Dzika visit these links:
+To see the original repositories where I have collaborated with my team mates Charmaine Wang and Laureta Dzika visit these links:
 https://github.com/linn2punkt0/SGN-frontend
 https://github.com/linn2punkt0/SGN-backend
 
