@@ -131,6 +131,7 @@ const Contact = props => {
       .catch(error => console.error(error));
   };
 
+  const SGNTeam = { name: "", description: "", email: "", phone: "", img: "" };
   const Persons = [1, 2, 3, 4, 5];
   return (
     <StyledContact>
@@ -189,70 +190,78 @@ const Contact = props => {
           );
         })}
       </div>
-      {/* <div className="personContainerBig">
-        {contacts.slice(0, 2).map(person => {
-          return (
-            <Person
-              key={person.id ? person.id : ""}
-              contactName={
-                person.title.rendered ? person.title.rendered : "Name Namesson"
-              }
-              contactImage={
-                person.acf.information.image
-                  ? person.acf.information.image.sizes.large
-                  : ""
-              }
-              contactDescription={
-                person.acf.information.description
-                  ? person.acf.information.description
-                  : "Description"
-              }
-              contactEmail={
-                person.acf.information.email
-                  ? person.acf.information.email
-                  : "email@mail.com"
-              }
-              contactPhone={
-                person.acf.information.phone
-                  ? person.acf.information.phone
-                  : "070-1234567"
-              }
-            />
-          );
-        })}
-      </div>
-      <div className="personContainerSmall">
-        {contacts.slice(2).map(person => {
-          return (
-            <Person
-              key={person.id ? person.id : ""}
-              contactName={
-                person.title.rendered ? person.title.rendered : "Name Namesson"
-              }
-              contactImage={
-                person.acf.information.image
-                  ? person.acf.information.image.sizes.large
-                  : ""
-              }
-              contactDescription={
-                person.acf.information.description
-                  ? person.acf.information.description
-                  : ""
-              }
-              contactEmail={
-                person.acf.information.email
-                  ? person.acf.information.email
-                  : "email@mail.com"
-              }
-              contactPhone={
-                person.acf.information.phone
-                  ? person.acf.information.phone
-                  : "070-1234567"
-              }
-            />
-          );
-        })}
-      </div> */}
+      {/* {contacts && (
+        <div className="personContainerBig">
+          {contacts.slice(0, 2).map(person => {
+            return (
+              <Person
+                key={person.id ? person.id : ""}
+                contactName={
+                  person.title.rendered
+                    ? person.title.rendered
+                    : "Name Namesson"
+                }
+                contactImage={
+                  person.acf.information.image
+                    ? person.acf.information.image.sizes.large
+                    : ""
+                }
+                contactDescription={
+                  person.acf.information.description
+                    ? person.acf.information.description
+                    : "Description"
+                }
+                contactEmail={
+                  person.acf.information.email
+                    ? person.acf.information.email
+                    : "email@mail.com"
+                }
+                contactPhone={
+                  person.acf.information.phone
+                    ? person.acf.information.phone
+                    : "070-1234567"
+                }
+              />
+            );
+          })}
+        </div>
+      )}
+      {contacts && (
+        <div className="personContainerSmall">
+          {contacts.slice(2).map(person => {
+            return (
+              <Person
+                key={person.id ? person.id : ""}
+                contactName={
+                  person.title.rendered
+                    ? person.title.rendered
+                    : "Name Namesson"
+                }
+                contactImage={
+                  person.acf.information.image
+                    ? person.acf.information.image.sizes.large
+                    : ""
+                }
+                contactDescription={
+                  person.acf.information.description
+                    ? person.acf.information.description
+                    : ""
+                }
+                contactEmail={
+                  person.acf.information.email
+                    ? person.acf.information.email
+                    : "email@mail.com"
+                }
+                contactPhone={
+                  person.acf.information.phone
+                    ? person.acf.information.phone
+                    : "070-1234567"
+                }
+              />
+            );
+          })}
+        </div>
+      )} */}
       <div className="row">
         <h6>info@supportgroup.com</h6>
       </div>
