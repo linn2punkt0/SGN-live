@@ -249,9 +249,6 @@ const Partners = props => {
           <li>
             <img src={flaggor} />
           </li>
-          <li>
-            <img src={arbetsformedlingen} />
-          </li>
         </ul>
       )}
     </StyledPartners>
